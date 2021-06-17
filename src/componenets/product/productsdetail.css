@@ -1,0 +1,66 @@
+.container {
+  width: 80%;
+
+  margin: 0 auto;
+}
+.mainbox {
+  display: flex;
+}
+.carouselbox,
+.detailsbox {
+  flex: 50%;
+  height: 300px;
+  margin: 50px;
+}
+.carouselbox img {
+  height: 100%;
+  width: 200px;
+}
+.detailsbox {
+  margin: 100px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: brown;
+  margin: 50px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.innmb {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 8px 50px;
+  background: lightgray;
+}
+
+.descript {
+  margin-top: 70px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+td {
+  border: 1px solid brown;
+  text-align: left;
+  padding: 8px;
+}
+
+tr td:nth-child(1) {
+  background-color: #dddddd;
+}

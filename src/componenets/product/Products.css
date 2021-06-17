@@ -1,0 +1,48 @@
+.head1 {
+  text-transform: uppercase;
+  background-color: rosybrown;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadmore button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: brown;
+  margin: 20px 0;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 1s ease;
+}
+.loadmore button:hover {
+  opacity: 0.7;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1 {
+  font-family: cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
